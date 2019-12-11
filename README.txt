@@ -22,7 +22,3 @@ To create register a node to the network:
 curl -X POST -H "Content-Type: application/json" -d '{
  "nodes": "0.0.0.0:5001"
 }' "http://localhost:5000/nodes/register"
-
-
-Credit given to: https://github.com/dvf/blockchain
-
