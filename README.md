@@ -1,8 +1,8 @@
 # BLOCKCHAIN.PY
 
-## Simple HTTP responses using basic transactions & bundled transactions (Blocks) to simulate Blockchain protocols
+## Using HTTP responses using basic transactions & bundled transactions (Blocks) to simulate Blockchain protocols 
 
-Written in Python used cURL for HTTP requests. 
+Written in Python used cURL for HTTP requests and Flask for routing. 
 (No permenant database will be created, so after server is quit data is lost. Data retention in progress)
 
 ### To run: <command> `python blockchain.py`
