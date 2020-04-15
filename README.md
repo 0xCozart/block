@@ -1,14 +1,14 @@
-#BLOCKCHAIN.PY
+# BLOCKCHAIN.PY
 
-*Simple HTTP responses using basic transactions & bundled transactions (Blocks) to simulate Blockchain protocols*
+## Simple HTTP responses using basic transactions & bundled transactions (Blocks) to simulate Blockchain protocols
 
 Written in Python used cURL for HTTP requests. 
 (No permenant database will be created, so after server is quit data is lost. Data retention in progress)
 
-To run: <command> `python blockchain.py`
+### To run: <command> `python blockchain.py`
 (Will auto run on Port 5000)
 
-To create a new transaction use: 
+### To create a new transaction use: 
 
 `curl -X POST -H "Content-Type: application/json" -d '{
  "sender": "d4ee26eee15148ee92c6cd394edd974e",
