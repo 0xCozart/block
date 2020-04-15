@@ -1,8 +1,9 @@
 # BLOCKCHAIN.PY
 
-## Using HTTP responses using basic transactions & bundled transactions (Blocks) to simulate Blockchain protocols 
+## Simulates a basic P2P blockchain network using HTTP to transfer and bundle transactions 
 
-Written in Python used cURL for HTTP requests and Flask for routing. 
+Written in Python 
+cURL for HTTP requests and Flask for routing 
 (No permenant database will be created, so after server is quit data is lost. Data retention in progress)
 
 ### To run: <command> `python blockchain.py`
@@ -17,7 +18,7 @@ Written in Python used cURL for HTTP requests and Flask for routing.
 }' "http://localhost:5000/transactions/new"`
 
 
-To create register a node to the network:
+### To register a node to the network:
 
 `curl -X POST -H "Content-Type: application/json" -d '{
  "nodes": "0.0.0.0:5001"
